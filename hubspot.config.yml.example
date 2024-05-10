@@ -1,0 +1,15 @@
+defaultPortal: test-bma-test-account
+portals:
+  - name: test-bma-test-account
+    portalId: xxx
+    env: prod
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+	  TOTO
+        expiresAt: '2024-05-10T09:29:48.009Z'
+    accountType: DEVELOPER_TEST
+    personalAccessKey: >-
+	TOTO
+    parentAccountId: xxx
